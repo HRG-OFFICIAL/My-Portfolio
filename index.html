@@ -1,78 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio | Harshraj</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>    
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <div id="particles-js">
-            <div class="centered-text">
-                <h1>👋 HELLO, I'M HARSHRAJ !</h1>
-            </div>
+      <div id="particles-js">
+        <div class="centered-text">
+          <h1>Hi 👋🏼, I'm <span>HARSHRAJ</span>!</h1>
         </div>
+      </div>
     </header>
 
-    <section id="about">
-        <div class="container">
-            <h2>ABOUT ME</h2>
-            <p>
-                Hello, I'm Harshraj! I'm a passionate web developer with a love for coding and creating meaningful projects.
-                Currently, I'm exploring new technologies and enhancing my skills to build innovative solutions.
-            </p>
-        </div>
+    <section id="about-me">
+      <div class="about-me">ABOUT ME</div>
+      <div class="container">
+        <img src="picture.png" alt="Myself" />
+        <p>
+          Hello, I'm Harshraj! I'm a passionate web developer with a love for
+          coding and creating meaningful projects. Currently, I'm exploring new
+          technologies and enhancing my skills to build innovative solutions.
+        </p>
+      </div>
     </section>
 
-    <section class="skills-section">
-        <div class="skills-container">
-            <h1 class="skills-heading"><i class="fas fa-code"></i> Skills</h1>
-            <div class="skills-row">
-                <div class="skills-item">
-                    <div class="skills-box">
-                        <h1>App development</h1>
-                        <p>Android</p>
-                    </div>
-                </div>
-                <div class="skills-item">
-                    <div class="skills-box">
-                        <h1>Web Technologies</h1>
-                        <p>HTML, CSS</p>
-                        <p>Framework &amp; Libraries: Angular, Bootstrap</p>
-                    </div>
-                </div>
+    <section id="skills">
+      <h2 class="skills-heading">Skills <i class="fas fa-code"></i></h2>
+      <div class="skill-sections">
+        <div class="Web">
+          <div>
+            <h3>Web Development</h3>
+          </div>
+          <div class="skill-section1">
+            <div class="sub-skills">
+              <h4>Frontend Development</h4>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+                <li>Frontend Frameworks (e.g., Bootstrap, Tailwind CSS)</li>
+                <li>Version Control (e.g., Git)</li>
+              </ul>
             </div>
+
+            <div class="sub-skills">
+              <h4>Backend Development</h4>
+              <ul>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>Database Management (e.g., MongoDB, MySQL)</li>
+                <li>RESTful APIs</li>
+                <li>Authentication & Authorization</li>
+              </ul>
+            </div>
+
+            <div class="sub-skills">
+              <h4>Other</h4>
+              <ul>
+                <li>Version Control (e.g., Git)</li>
+                <li>Command Line</li>
+                <li>Package Managers (e.g., npm, yarn)</li>
+                <li>Task Runners (e.g., Gulp, Webpack)</li>
+                <li>Debugging & Testing</li>
+              </ul>
+            </div>
+          </div>
         </div>
+        <div class="App">
+          <div>
+            <h3>App Development</h3>
+          </div>
+          <div class="skill-section2">
+            <div class="sub-skills">
+              <h4>Android</h4>
+              <ul>
+                <li>Java</li>
+                <li>Kotlin</li>
+                <li>Android Studio</li>
+                <li>UI/UX Design</li>
+                <li>RESTful APIs</li>
+                <li>SQLite Database</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-        
+
     <section id="resume">
-        <div class="container">
-            <h2>HERE'S MY RESUME</h2>
-            <a href="#"><span id="resume-btn"><p>RESUME</p></span></a>
-        </div>
+      <div class="container">
+        <h2>HERE'S MY RESUME</h2>
+        <a href="#"
+          ><span id="resume-btn"><p>RESUME</p></span></a
+        >
+      </div>
     </section>
 
     <footer>
-        <h1><a href="contact.html" style="text-decoration:none; color: inherit;">Contact</a></h1>
-        <div class="container">
-            <div class="footer_text">
-                <p>
-                Have inquiries, suggestions, or projects in mind? Interested in collaborating on something together?</p>
-                <p>Don't hesitate to get in touch.</p>
-            </div>
-            <div class="social-icons">
-                <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer" class="social-button">GITHUB</a>
-                <a href="mailto:hrg.nitrr@gmail.com" target="_blank" rel="noopener noreferrer" class="social-button">GMAIL</a>
-                <a href="https://www.linkedin.com/in/harshraj-gurupunch-0b2303287/" target="_blank" rel="noopener noreferrer" class="social-button">LINKEDIN</a>
-            </div>
+      <h1>
+        <a href="contact.html" style="text-decoration: none; color: inherit"
+          >Contact</a
+        >
+        <i class="fa-solid fa-folder-user"></i>
+      </h1>
+      <div class="container">
+        <div class="footer_text">
+          <p>
+            Have inquiries, suggestions, or projects in mind? Interested in
+            collaborating on something together?
+          </p>
+          <p>Don't hesitate to get in touch.</p>
         </div>
-
+        <div class="social-icons">
+          <a
+            href="https://github.com/your-github-username"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-button"
+            >GITHUB</a
+          >
+          <a
+            href="mailto:hrg.nitrr@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-button"
+            >GMAIL</a
+          >
+          <a
+            href="https://www.linkedin.com/in/harshraj-gurupunch-0b2303287/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-button"
+            >LINKEDIN</a
+          >
+        </div>
+      </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/8a5c9ce28e.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="particles.js"></script>
-</body>
+  </body>
 </html>
